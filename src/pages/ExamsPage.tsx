@@ -11,7 +11,7 @@ const ExamsPage: React.FC = () => {
   const [selectedSubject, setSelectedSubject] = useState('all');
   const [selectedDifficulty, setSelectedDifficulty] = useState('all');
   const [isResultsModalOpen, setIsResultsModalOpen] = useState(false);
-  const [selectedExam, setSelectedExam] = useState<string | null>(null);
+  const [, setSelectedExam] = useState<string | null>(null);
 
   // Mock exams data
   const exams: Exam[] = [
