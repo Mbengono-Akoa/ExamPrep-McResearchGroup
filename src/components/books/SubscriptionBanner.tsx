@@ -1,8 +1,7 @@
 import React from 'react';
-import { useLanguage } from '../../contexts/LanguageContext';
 
 const SubscriptionBanner: React.FC = () => {
-  const { t } = useLanguage();
+  // const { t } = useLanguage();
 
   return (
     <div className="mt-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">

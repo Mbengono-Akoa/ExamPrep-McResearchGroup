@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { User, Mail, Calendar, BookOpen, Settings, Bell, Shield, CreditCard } from 'lucide-react';
-import { useLanguage } from '../contexts/LanguageContext';
+// import { useLanguage } from '../contexts/LanguageContext';
 import Navbar from '../components/common/Navbar';
 
 const ProfilePage: React.FC = () => {
-  const { t } = useLanguage();
+  // const { t } = useLanguage();
   const [activeTab, setActiveTab] = useState('profile');
 
   const user = {

@@ -57,19 +57,19 @@ const LoginPage: React.FC = () => {
   };
 
   // Quick login function for demo purposes
-  const handleQuickLogin = (email: string, password: string) => {
-    const mockEvent = {
-      preventDefault: () => {}
-    } as React.FormEvent;
+  // const handleQuickLogin = (email: string, password: string) => {
+  //   const mockEvent = {
+  //     preventDefault: () => {}
+  //   } as React.FormEvent;
     
-    const formData: AuthFormData = {
-      email,
-      password,
-      rememberMe: true
-    };
+  //   const formData: AuthFormData = {
+  //     email,
+  //     password,
+  //     rememberMe: true
+  //   };
     
-    handleSubmit(formData);
-  };
+  //   handleSubmit(formData);
+  // };
 
   return (
     <AuthLayout
